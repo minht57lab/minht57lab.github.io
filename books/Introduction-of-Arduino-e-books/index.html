@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="vn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Giới thiệu sách “Arduino cho người mới bắt đầu” - minht57lab</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="minht57lab"><meta name="msapplication-TileImage" content="/img/avatar.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="minht57lab"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Giới thiệuArduino đã quá quen thuộc với các bạn học sinh, sinh viên vì dễ tiếp cận, nguồn tài liệu dồi dào (bằng tiếng Việt), và thời gian thực hiện ngắn,… Dựa trên nhu cầu đó, minht57lab đã giới thiệ"><meta property="og:type" content="blog"><meta property="og:title" content="Giới thiệu sách “Arduino cho người mới bắt đầu”"><meta property="og:url" content="https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/"><meta property="og:site_name" content="minht57lab"><meta property="og:description" content="Giới thiệuArduino đã quá quen thuộc với các bạn học sinh, sinh viên vì dễ tiếp cận, nguồn tài liệu dồi dào (bằng tiếng Việt), và thời gian thực hiện ngắn,… Dựa trên nhu cầu đó, minht57lab đã giới thiệ"><meta property="og:locale" content="vn"><meta property="og:image" content="https://minht57lab.github.io/img/og_image.png"><meta property="article:published_time" content="2022-11-13T21:30:11.000Z"><meta property="article:modified_time" content="2023-04-11T01:16:57.603Z"><meta property="article:author" content="Tri PHAN"><meta property="article:tag" content="Arduino"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://minht57lab.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/"},"headline":"Giới thiệu sách “Arduino cho người mới bắt đầu”","image":["https://minht57lab.github.io/img/og_image.png"],"datePublished":"2022-11-13T21:30:11.000Z","dateModified":"2023-04-11T01:16:57.603Z","author":{"@type":"Person","name":"Tri PHAN"},"publisher":{"@type":"Organization","name":"minht57lab","logo":{"@type":"ImageObject","url":"https://minht57lab.github.io/img/logo.png"}},"description":"Giới thiệuArduino đã quá quen thuộc với các bạn học sinh, sinh viên vì dễ tiếp cận, nguồn tài liệu dồi dào (bằng tiếng Việt), và thời gian thực hiện ngắn,… Dựa trên nhu cầu đó, minht57lab đã giới thiệ"}</script><link rel="canonical" href="https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/"><link rel="icon" href="/img/avatar.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const $tabMenu = document.querySelector(`a[href="${location.hash}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(location.hash);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="minht57lab" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/books">Books</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/minht57lab"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="Mục lục" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Tìm kiếm" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><h1 class="title is-3 is-size-4-mobile">Giới thiệu sách “Arduino cho người mới bắt đầu”</h1><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><i class="far fa-calendar-alt"></i>&nbsp;<timex dateTime="2022-11-13T21:30:11.000Z" title="11/13/2022, 9:30:11 PM">13-11-2022</timex></span><span class="level-item"><i class="far fa-calendar-check"></i>&nbsp;<time dateTime="2023-04-11T01:16:57.603Z" title="4/11/2023, 1:16:57 AM">11-04-2023</time></span><span class="level-item"><i class="far fa-user"></i><span> </span>Tri PHAN</span><span class="level-item"><i class="far fa-folder-open has-text-grey"></i><span> </span><a class="link-muted" href="/books/">books</a></span><span class="level-item"><i class="far fa-clock"></i><span> </span>12 minutes đọc (Khoảng 1807 từ)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv">0</span>&nbsp;Bạn đọc</span></div></div><div class="content"><h1 id="Gioi-thieu"><a href="#Gioi-thieu" class="headerlink" title="Giới thiệu"></a>Giới thiệu</h1><p>Arduino đã quá quen thuộc với các bạn học sinh, sinh viên vì dễ tiếp cận, nguồn tài liệu dồi dào (bằng tiếng Việt), và thời gian thực hiện ngắn,… Dựa trên nhu cầu đó, minht57lab đã giới thiệu đến các bạn đọc 3 quyển e-book miễn phí vào 15&#x2F;09&#x2F;2020. Bộ sách sẽ đi từ những kiến thức cơ bản nhất đến những kiến thức chuyên sâu. Định hướng của bộ sách dành cho các bạn học lập trình vi điều khiển chuyên sâu và Arduino là một sự khởi đầu. Bộ sách này bạn có thể đọc và thực hành không cần đến board mạch Arduino thực tế, tất cả các ví dụ đều được mô phỏng online.</p>
+<span id="more"></span>
+
+<h1 id="Cac-quyen-sach"><a href="#Cac-quyen-sach" class="headerlink" title="Các quyển sách"></a>Các quyển sách</h1><p>Bộ sách gồm 3 quyển bao gồm: quyển cơ bản, quyển rất cơ bản và quyển không còn là cơ bản.</p>
+<h2 id="Duong-dan-cac-quyen-sach"><a href="#Duong-dan-cac-quyen-sach" class="headerlink" title="Đường dẫn các quyển sách:"></a>Đường dẫn các quyển sách:</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.academia.edu/44088415/ARDUINO_CHO_NG%C6%AF%E1%BB%9CI_M%E1%BB%9AI_B%E1%BA%AET_%C4%90%E1%BA%A6U_Quy%E1%BB%83n_c%C6%A1_b%E1%BA%A3n">ARDUINO CHO NGƯỜI MỚI BẮT ĐẦU _ Quyển cơ bản</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.academia.edu/44088426/ARDUINO_CHO_NG%C6%AF%E1%BB%9CI_M%E1%BB%9AI_B%E1%BA%AET_%C4%90%E1%BA%A6U_Quy%E1%BB%83n_r%E1%BA%A5t_c%C6%A1_b%E1%BA%A3n">ARDUINO CHO NGƯỜI MỚI BẮT ĐẦU _ Quyển rất cơ bản</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.academia.edu/44088444/ARDUINO_CHO_NG%C6%AF%E1%BB%9CI_M%E1%BB%9AI_B%E1%BA%AET_%C4%90%E1%BA%A6U_Quy%E1%BB%83n_kh%C3%B4ng_c%C3%B2n_l%C3%A0_c%C6%A1_b%E1%BA%A3n">ARDUINO CHO NGƯỜI MỚI BẮT ĐẦU _ Quyển không còn là cơ bản</a></li>
+</ul>
+<h2 id="Quyen-co-ban"><a href="#Quyen-co-ban" class="headerlink" title="Quyển cơ bản"></a>Quyển cơ bản</h2><ul>
+<li>Những linh kiện điện tử cơ bản</li>
+<li>Kiến thức C cơ bản</li>
+<li>Những module ngoại vi mà một vi điều khiển cần phải có (GPIO, Time, UART, SPI, I2C, Interrupt).</li>
+<li>Ngoài ra, sách còn bổ sung cho bạn một số kiến thức quan trọng và một số mạch điện ví dụ (cuối sách) để hiểu rõ hơn những bài học.</li>
+</ul>
+<h2 id="Quyen-rat-co-ban"><a href="#Quyen-rat-co-ban" class="headerlink" title="Quyển rất cơ bản"></a>Quyển rất cơ bản</h2><p>Thảo luận những vấn đề chuyên sâu hơn về lập trình C cho vi điều khiển cũng như chi tiết code bên trong của Arduino.</p>
+<ul>
+<li>Lập trình C là những điều cần biết: sẽ cung cấp cho bạn những kiến thức mà bạn cần biết khi lập trình vi điều khiển như biến volatile&#x2F;register&#x2F;…, cách một chương trình C build như thế nào, vùng hoạt động và giới hạn của biến, các loại vùng nhớ trong chương trình C, các loại biến pre-compile&#x2F;link&#x2F;post-build.</li>
+<li>Các module ngoại vi: sẽ cho bạn đọc một cái nhìn chi tiết về vi điều khiển hoạt động như thế nào và cách thiết kế chương trình của nền tảng Arduino.</li>
+</ul>
+<h2 id="Quyen-khong-con-la-co-ban"><a href="#Quyen-khong-con-la-co-ban" class="headerlink" title="Quyển không còn là cơ bản"></a>Quyển không còn là cơ bản</h2><ul>
+<li>Phong cách lập trình (coding style)</li>
+<li>Máy trạng thái cho vi điều khiển</li>
+<li>Bộ điều khiển PID</li>
+<li>Bộ lọc Kalman</li>
+<li>Một số đường dẫn để học về GIT</li>
+<li>Một tư tưởng về phát triển sản phẩm cho các bạn tự học giai đoạn đầu.</li>
+</ul>
+<h1 id="Mot-so-chia-se-cua-minht57lab-ve-cach-doc-cac-quyen-sach"><a href="#Mot-so-chia-se-cua-minht57lab-ve-cach-doc-cac-quyen-sach" class="headerlink" title="Một số chia sẻ của minht57lab về cách đọc các quyển sách"></a>Một số chia sẻ của minht57lab về cách đọc các quyển sách</h1><ul>
+<li>Nếu bạn đọc cần hướng dẫn arduino làm việc với các loại cảm biến, hoặc một dự án cụ thể thì đây không phải bộ sách dành cho bạn. Mình tin đã có nhiều quyển sách (miễn phí hoặc có phí) đã làm rất tốt những hướng dẫn này để bạn có thể nhanh chóng làm những ứng dụng với nhiều tính năng sáng tạo.</li>
+<li>Nếu bạn không lập trình Arduino thì bộ sách này vẫn dành cho bạn nếu bạn muốn có những kiến thức cơ bản về lập trình vi điều khiển nói chung. minht57lab đề xuất những đề mục cần đọc nếu bạn không lập trình Arduino ở cuối bài viết này.</li>
+<li>Bạn đọc nếu là người mới bắt đầu và chưa có thực hành nhiều với Arduino thì được khuyến khích không nên đọc quyển 2 (quyển rất cơ bản) ngay sau quyển 1 (quyển cơ bản), mà hãy dành thời gian để làm các dự án mẫu ở trên những nguồn tài liệu khác để bạn đọc có những trải nghiệm và kinh nghiệm nhất định về Arduino. Quyển 3 bạn có thể xem qua trước vì chủ yếu là những từ khóa hơn là những bài hướng dẫn cụ thể.</li>
+</ul>
+<h1 id="Huong-dan-doc-sach-cho-nguoi-khong-lap-trinh-bang-Arduino"><a href="#Huong-dan-doc-sach-cho-nguoi-khong-lap-trinh-bang-Arduino" class="headerlink" title="Hướng dẫn đọc sách cho người không lập trình bằng Arduino"></a>Hướng dẫn đọc sách cho người không lập trình bằng Arduino</h1><h2 id="Quyen-co-ban-1"><a href="#Quyen-co-ban-1" class="headerlink" title="Quyển cơ bản:"></a>Quyển cơ bản:</h2><ul>
+<li>Linh kiện điện tử cơ bản</li>
+<li>Lập trình C cơ bản</li>
+<li>Phụ lục C: Một số khái niệm cơ bản</li>
+</ul>
+<h2 id="Quyen-rat-co-ban-1"><a href="#Quyen-rat-co-ban-1" class="headerlink" title="Quyển rất cơ bản:"></a>Quyển rất cơ bản:</h2><ul>
+<li>Lập trình C</li>
+<li>Các module ngoại vi:<ul>
+<li>3.1 GPIO</li>
+<li>5 UART</li>
+<li>6.1 - 6.2 Analog</li>
+<li>7.1 - 7.2 I2C</li>
+<li>8.1 - 8.2 SPI</li>
+<li>9.1 Interrupt</li>
+</ul>
+</li>
+<li>Phụ lục A</li>
+</ul>
+<h2 id="Quyen-khong-con-la-co-ban-1"><a href="#Quyen-khong-con-la-co-ban-1" class="headerlink" title="Quyển không còn là cơ bản"></a>Quyển không còn là cơ bản</h2><ul>
+<li>Đọc hết</li>
+</ul>
+<h1 id="Loi-ket"><a href="#Loi-ket" class="headerlink" title="Lời kết"></a>Lời kết</h1><p>minht57lab rất mong nhận được những đóng góp ý kiến của các bạn để minht57lab có xây dựng bộ sách chất lượng nhất được gửi đến các bạn đọc ở nhiều thế hệ phía sau.</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Giới thiệu sách “Arduino cho người mới bắt đầu”</p><p><a href="https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/">https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Tri PHAN</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>13-11-2022</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>11-04-2023</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a><a class="icons" rel="noopener" target="_blank" title="ShareAlike" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="icon fab fa-creative-commons-sa"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Arduino/">Arduino</a></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=63212576a4cf5e001279baa3&amp;product=inline-share-buttons" defer></script></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/books/Introduction-of-ROS2-e-books/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Giới thiệu sách ROS 2</span></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Bình luận</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://minht57lab.github.io/books/Introduction-of-Arduino-e-books/';
+            this.page.identifier = 'books/Introduction-of-Arduino-e-books/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'minht57lab' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="minht57lab"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">minht57lab</p><p class="is-size-6 is-block">Không gian nghiên cứu và phát triển</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Vietnam</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Bài viết</p><a href="/archives"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Thể loại</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Nhãn</p><a href="/tags"><p class="title">2</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://independent.academia.edu/minht57lab" target="_blank" rel="noopener">Theo dõi</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/minht57lab"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/minht57lab"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Mục lục</h3><ul class="menu-list"><li><a class="level is-mobile" href="#Gioi-thieu"><span class="level-left"><span class="level-item">1</span><span class="level-item">Giới thiệu</span></span></a></li><li><a class="level is-mobile" href="#Cac-quyen-sach"><span class="level-left"><span class="level-item">2</span><span class="level-item">Các quyển sách</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#Duong-dan-cac-quyen-sach"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">Đường dẫn các quyển sách:</span></span></a></li><li><a class="level is-mobile" href="#Quyen-co-ban"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">Quyển cơ bản</span></span></a></li><li><a class="level is-mobile" href="#Quyen-rat-co-ban"><span class="level-left"><span class="level-item">2.3</span><span class="level-item">Quyển rất cơ bản</span></span></a></li><li><a class="level is-mobile" href="#Quyen-khong-con-la-co-ban"><span class="level-left"><span class="level-item">2.4</span><span class="level-item">Quyển không còn là cơ bản</span></span></a></li></ul></li><li><a class="level is-mobile" href="#Mot-so-chia-se-cua-minht57lab-ve-cach-doc-cac-quyen-sach"><span class="level-left"><span class="level-item">3</span><span class="level-item">Một số chia sẻ của minht57lab về cách đọc các quyển sách</span></span></a></li><li><a class="level is-mobile" href="#Huong-dan-doc-sach-cho-nguoi-khong-lap-trinh-bang-Arduino"><span class="level-left"><span class="level-item">4</span><span class="level-item">Hướng dẫn đọc sách cho người không lập trình bằng Arduino</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#Quyen-co-ban-1"><span class="level-left"><span class="level-item">4.1</span><span class="level-item">Quyển cơ bản:</span></span></a></li><li><a class="level is-mobile" href="#Quyen-rat-co-ban-1"><span class="level-left"><span class="level-item">4.2</span><span class="level-item">Quyển rất cơ bản:</span></span></a></li><li><a class="level is-mobile" href="#Quyen-khong-con-la-co-ban-1"><span class="level-left"><span class="level-item">4.3</span><span class="level-item">Quyển không còn là cơ bản</span></span></a></li></ul></li><li><a class="level is-mobile" href="#Loi-ket"><span class="level-left"><span class="level-item">5</span><span class="level-item">Lời kết</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="minht57lab" height="28"></a><p class="is-size-7"><span>&copy; 2023 Tri PHAN</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv">Thăm bởi <span id="busuanzi_value_site_uv">0</span> bạn đọc</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="ShareAlike" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fab fa-creative-commons-sa"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/minht57lab"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("vn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Trở lai đầu trang" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "Trang web này sử dụng cookie để cải thiện trải nghiệm của bạn.",
+          dismiss: "Hiểu rồi!",
+          allow: "Cho phép cookie",
+          deny: "Từ chối",
+          link: "Tìm hiểu thêm",
+          policy: "Chính sách Cookie",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Gõ gì đó..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Gõ gì đó...","untitled":"(Không có tiêu đề)","posts":"Bài viết","pages":"Trang","categories":"Thể loại","tags":"Nhãn"});
+        });</script></body></html>
